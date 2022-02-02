@@ -92,7 +92,7 @@ function Ticket() {
           </span>
         </h2>
         <h3>
-          Date Submitted: {new Date(ticket.createdAt).toLocaleString('en-US')}
+          Date Submitted: {new Date(ticket.createdAt).toLocaleString('fr-FR')}
         </h3>
         <h3>Product: {ticket.product}</h3>
         <hr />
